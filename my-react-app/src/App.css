@@ -1,0 +1,133 @@
+*{
+  margin: 0px;
+  background-color: dimgray;
+  }
+  
+  header{
+    background-color: lightskyblue;
+    height: 75px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .home{
+    background-color: lightskyblue;
+    color: black;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+  .person{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .person-profile{
+    background-color: white;
+    height: 400px;
+    width: 80%;
+    margin: 75px ;
+    margin-bottom: 0px;
+    display:flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+  }
+  .name{
+    background-color: white;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  h1{
+    display: flex;
+    background-color: white;
+    margin-left: 100px;
+    text-decoration: underline lightskyblue;
+  }
+  
+  h2{
+    background-color: white;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    font-size: 35px;
+  }
+  
+  .person-info{
+    background-color: white;
+  }
+  
+  .current-info{
+    background-color: white;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight:bold;
+  }
+  
+  span{
+    background-color: white;
+    font-weight: normal;
+  }
+  ol{
+    background-color: white;
+  }
+  
+  p{
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .movie-list{
+    margin-left: 100px;
+    font-size: 20px;
+    background-color: white;
+  }
+  
+  .buttons{
+    background-color: dimgray;
+    display: flex;
+    height: 50px;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 192px;
+  
+  }
+  
+  .center-buttons{
+   height: 100%;
+   width: 20%;
+   display: flex;
+   justify-content: space-around;
+   background-color: dimgray;
+   
+  }
+  
+  .cool{
+    height:80% ;
+    width: 70px;
+    border-radius: 100px ;
+    background-color: lightskyblue;
+    font-size: 15px;
+    color :white;
+    margin-top: 10px;
+  }
+  
+  .direction{
+    height: 80%;
+    background-color: dimgray;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    
+  }
